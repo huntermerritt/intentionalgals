@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Social profiles for gamers.">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Intentional Gals</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favlogo.png') }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<style>
+
+    body
+    {
+        font-family: Abel, sans-serif;
+    }
+
+    .pic
+    {
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+
+    .wepick
+    {
+        text-align: center;
+    }
+
+    .custombutton:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    .custombutton
+    {
+        color: white;
+        background-color: rgba(218, 197, 211, 0.7);
+    }
+
+
+</style>
+<body class="text-dark" style="background-color: #c8d6c3">
+
+<nav class="navbar navbar-expand-lg navbar-light" style="min-height: 20vh; background-color: #c8d6c3;">
+  <a class="navbar-brand" href="#">
+    <img src="../static/logogoback.png" width="200" alt="">
+
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+            </li>
+        </ul>
+
+
+      <div class="form-inline">
+          <a class="mr-sm-2 text-secondary" href="https://www.instagram.com/intentionalgals/?hl=en"><i class="fab fa-instagram" style="font-size: 3em;"></i></a>
+          <a class="mr-sm-2 text-secondary" href="https://www.pinterest.com/intentionalgals/"><i class="fab fa-pinterest" style="font-size: 3em;"></i></a>
+          <a class="mr-sm-2 text-secondary" href="https://www.pinterest.com/intentionalgals/"><i class="fas fa-envelope" style="font-size: 3em;"></i></a>
+
+      </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+
+
+        <div class="col-lg-6" style="text-align: center;">
+
+            <img src="/static/IMG_5394.JPG" style="max-width: 40vw; max-height: 100vh;">
+
+        </div>
+
+
+        <div class="col-lg-6">
+
+            <div style="height: 10vh;"></div>
+
+            <h3 class="text-light">Artists | Best Friends | Sisters | Believers | Intention Setters</h3>
+
+
+            <div style="height: 5vh;"></div>
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <h3 class="card-title">Hannah Ricks</h3>
+                    <hr>
+                    <p class="card-text">Hannah is an artist, creator, believer, and soon to be wife to her high school sweetheart. She loves expressing herself and her view of the world through watercolor and acrylic abstract paintings and prints. She is passionate about striped t shirts, eating dessert, making cozy home spaces, picking up litter, and the power of education. She is a competitive board game player, hard core crafter, and excellent mac and cheese stirrer. She lives for giggling with her fiancé, the golden rays or sun in the late afternoon, and a a good couch for snuggling and talking.
+
+
+She has big dreams for herself, her family, and this world. She has so many thoughts inspirations, dreams, and questions that run through her mind yeah day that she wanted to create a space where she could let those thoughts breathe and run wild. She uses them to create intentions for the week and keep God on the forefront of her mind as she interacts with the world. </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-6">
+
+
+            <div style="height: 20vh;"></div>
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <h3 class="card-title">Elle Merritt</h3>
+                    <hr>
+                    <p class="card-text">Elle is writer, graphic designer, photographer, certified yoga instructor, & lover of avocados. Elle’s dream would be to travel the world with her favorite guy besides her while writing, photographing, and teaching the importance of yoga and movement. Elle loves the mountains, hiking, and pretty much anything outdoors. She is the creator of Elle Hope Design, a media company whose goal is to create marketing materials, increase social media engagement, and brand based photography.
+
+
+Elle’s primary focus of intentionality is to love others well. She acknowledges the love that Jesus has for us & tries to reflect that. </p>
+
+                </div>
+
+            </div>
+
+            <div style="height: 5vh;"></div>
+
+
+        </div>
+
+
+        <div class="col-lg-6" style="text-align: center;">
+
+            <img src="/static/IMG_6000.JPG" style="max-width: 40vw; max-height: 100vh;">
+
+        </div>
+
+    </div>
+
+
+
+</div>
+
+<div class="container-fluid" style="margin-top: 10px;">
+
+    <div class="row" style="background-color: rgba(255, 255, 255, 0.5);">
+
+        <div class="col-12" style="height: 5vh;"></div>
+
+        <div class="col-lg-3">
+
+            <h5>Intentional Gals</h5>
+            <p>intentionalgals@gmail.com</p>
+        </div>
+
+        <div class="col-lg-6">
+
+
+        </div>
+
+        <div class="col-lg-3">
+            <a href="/" class="btn btn-outline-dark">Powered by Brandee</a>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

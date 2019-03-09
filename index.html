@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Social profiles for gamers.">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Intentional Gals</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="shortcut icon" href="/static/favlogo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<style>
+
+    body
+    {
+        font-family: Abel, sans-serif;
+    }
+
+    .pic
+    {
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+
+    .wepick
+    {
+        text-align: center;
+    }
+
+    .custombutton:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    .custombutton
+    {
+        color: white;
+        background-color: rgba(218, 197, 211, 0.7);
+    }
+
+
+</style>
+<body class="text-dark" style="background-color: #c8d6c3">
+
+<nav class="navbar navbar-expand-lg navbar-light" style="min-height: 20vh; background-color: #c8d6c3;">
+  <a class="navbar-brand" href="#">
+    <img src="/static/logogoback.png" width="200" alt="">
+
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">Contact</a>
+            </li>
+        </ul>
+
+
+      <div class="form-inline">
+          <a class="mr-sm-2 text-secondary" href="https://www.instagram.com/intentionalgals/?hl=en"><i class="fab fa-instagram" style="font-size: 3em;"></i></a>
+          <a class="mr-sm-2 text-secondary" href="https://www.pinterest.com/intentionalgals/"><i class="fab fa-pinterest" style="font-size: 3em;"></i></a>
+          <a class="mr-sm-2 text-secondary" href="https://www.pinterest.com/intentionalgals/"><i class="fas fa-envelope" style="font-size: 3em;"></i></a>
+
+      </div>
+  </div>
+</nav>
+<div class="container-fluid">
+
+
+    <div class="row">
+
+        <div class="col-12" style="background-color: rgba(255, 255, 255, 0.5);">
+
+            <div class="row">
+
+                <div class="col-lg-6" style="height: 80vh; background: url('/static/IMG_5482.jpg') no-repeat; background-size: cover; background-color: rgba(255, 255, 255, 0.7);">
+                        <div style="height: 5vh;"></div>
+
+
+
+
+
+
+                </div>
+
+                <div class="col-lg-6" style="height: 80vh; background: url('/static/book.png') no-repeat; background-size: cover; background-color: rgba(255, 255, 255, 0.7);">
+
+                        <div style="height: 75vh;"></div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-12" style="height: 5vh;"></div>
+
+        <div class="col-12" style="height: 100vh;">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner" style="text-align: center;">
+                    <div class="carousel-item active wepick">
+                        <img src="/static/IMG_5475.JPG" class="pic" alt="...">
+                    </div>
+                    <div class="carousel-item wepick">
+                        <img src="/static/IMG_5476.JPG" class="pic" alt="...">
+                    </div>
+                    <div class="carousel-item wepick">
+                        <img src="/static/IMG_5477.JPG" class="pic" alt="...">
+                    </div>
+                    <div class="carousel-item wepick">
+                        <img src="/static/IMG_5478.JPG" class="pic" alt="...">
+                    </div>
+                    <div class="carousel-item wepick">
+                        <img src="/static/IMG_5480.JPG" class="pic" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="col-12" style="height: 5vh;"></div>
+
+        <div class="col-12">
+
+            <div class="row">
+
+                <div class="col-lg-3 card">
+                    <div class="card-body">
+                        <div style="height: 5vh;"></div>
+
+                        <div style="text-align: center;">
+                            <img src="/static/togethers.png" style="width: 15vw; height: 15vw;" class="rounded-circle">
+                            <br>
+                            <br>
+                            <h4>The Gals</h4>
+                            <hr>
+                            <br>
+                        </div>
+
+                        <p>We are the Intentional Gals! We are sisters in law who are passionate about living life to the fullest.
+                        We can't wait to hear from all of you and make meaningful products to help make your life a little more intentional.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-1"></div>
+
+                <div class="col-lg-4 card">
+                    <div class="card-body">
+                        <div style="height: 5vh;"></div>
+
+                        <div style="text-align: center;">
+                            <img src="/static/journal.jpg" style="width: 25vw; height: 25vw;" class="rounded-circle">
+                            <br>
+                            <br>
+                            <h4>The Intentional Journal</h4>
+                            <hr>
+                            <br>
+                        </div>
+
+                        <p>We make dope journals and planners to help you best live your life. We believe in living life on purpose and that comes with planning.
+                         We are excited to make things that help our followers and customers live their best life!</p>
+                    </div>
+
+                </div>
+
+                <div class="col-1"></div>
+
+                <div class="col-lg-3 card">
+                    <div class="card-body">
+                        <div style="height: 5vh;"></div>
+
+                        <div style="text-align: center;">
+                            <img src="/static/logos.png" style="width: 15vw; height: 15vw;" class="rounded-circle">
+                            <br>
+                            <br>
+                            <h4>Find Us!</h4>
+                            <hr>
+                            <br>
+                        </div>
+
+                        <p>So you like what you see? Go ahead and follow us on Instagram using the link below! Or head on over to our contact page
+                        to join our email list to get all sorts of exclusive deals.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-12" style="height: 5vh;"></div>
+
+
+                <div class="col-12" id="contact">
+
+
+                    <form class="form-control" action="https://instagram.us20.list-manage.com/subscribe/post?u=96defa766e3381c87b5a7d4a0&amp;id=a5da642b0c" method="post" target="_blank">
+
+                        <h3>Want more Intentional Gals?</h3>
+                        <h4>Sign-Up to get our emails! We don't spam!</h4>
+                        <br>
+
+                        <p>Email</p>
+                        <input class="form-control" name="EMAIL" placeholder="jane@example.com">
+
+                        <br>
+                        <button type="submit" class="btn custombutton">Join</button>
+
+                    </form>
+
+
+                </div>
+
+
+                <div class="col-12" style="height: 5vh;"></div>
+
+                <div class="col-12">
+
+                    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/084b23c5007b548a8cfde9808678c2c3.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class="container-fluid" style="margin-top: 10px;">
+
+    <div class="row" style="background-color: rgba(255, 255, 255, 0.5);">
+
+        <div class="col-12" style="height: 5vh;"></div>
+
+        <div class="col-lg-3">
+
+            <h5>Intentional Gals</h5>
+            <p>intentionalgals@gmail.com</p>
+        </div>
+
+        <div class="col-lg-6">
+
+
+        </div>
+
+        <div class="col-lg-3">
+            <a href="/" class="btn btn-outline-dark">Powered by Brandee</a>
+        </div>
+
+    </div>
+
+</div>
+<script>
+
+
+    $(function(){
+        $('.carousel').carousel({
+          interval: 2000
+        });
+    });
+
+</script>
+
+</body>
+</html>
